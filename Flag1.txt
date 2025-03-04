@@ -4,4 +4,10 @@ Flag1
 
 2. wget -O tutorials.zip --no-check-certificate -r https://drive.google.com/file/d/1lV1HVmPTY_BOAK6ToXymRu7V5eVfR0ut/view?usp=sharing
 
-3. 
+3. unzip tutorials.zip -d singing_tutorials/
+
+4. ls -la
+
+5. find . -iname "*opera*nba*" -exec grep -Eahm 1 "FLAG\{[^}]*\}" {} + > ../flag.txt
+
+FLAG: FLAG{https://files.catbox.moe/9l4qu8}
